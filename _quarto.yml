@@ -8,8 +8,8 @@ author-meta: "Dr. Omveer Singh"
 
 website:
   title: "Omveer Singh"
-  image: "https://quarto.org/quarto.png"
-  description: "Quarto Academic Website Template adapted by Dr. Gang He"
+  image: ""
+  description: ""
  
   navbar:
     background: light  # You can change the background color here
