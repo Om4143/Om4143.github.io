@@ -1,7 +1,10 @@
 ---
 title: "Publications"
 description-meta: "Information, PDFs, and social metrics of papers"
-bibliography: references.bib
+bibliography:
+  - references.bib
+sort: year
+csl: nature.csl
 citeproc: true
 nocite: |
   @*
