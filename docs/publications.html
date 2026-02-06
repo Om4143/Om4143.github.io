@@ -26,6 +26,7 @@ ul.task-list li input[type="checkbox"] {
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
+  margin-bottom: 0em;
 }
 .hanging-indent div.csl-entry {
   margin-left:2em;
@@ -120,9 +121,37 @@ https://badge.dimensions.ai/
 
 <script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
-<link rel="stylesheet" href="custom.css">
 <meta property="og:title" content="Publications – Omveer Singh">
 <meta property="og:image" content="https://quarto.org/quarto.png">
 <meta property="og:site_name" content="Omveer Singh">
@@ -274,9 +303,16 @@ https://badge.dimensions.ai/
 
 <section id="all-publications" class="level2">
 <h2 class="anchored" data-anchor-id="all-publications">All Publications</h2>
-<p></p>
-<div id="refs" role="list">
-
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-ahmad2022multifractal" class="csl-entry" role="listitem">
+Ahmad, Nazeer, Tufail Ahmad, and Omveer Singh. 2022. <span>“A Multifractal Study of Charged Secondaries Produced in Relativistic Nucleus–Nucleus Collisions.”</span> <em>European Physical Journal Plus</em> 137: 653. <a href="https://doi.org/10.1140/epjp/s13360-022-02787-4">https://doi.org/10.1140/epjp/s13360-022-02787-4</a>.
+</div>
+<div id="ref-rasool2015intermittency" class="csl-entry" role="listitem">
+Rasool, Mir Hashim, M. Ayaz Ahmad, Shafiq Ahmad, and Omveer Singh. 2015. <span>“Intermittency and Multiplicity Moments of Relativistic Charged Particles Produced in <span class="math inline">\(^{32}\)</span>s–Emulsion Interactions at 200<span class="math inline">\(A\)</span> GeV.”</span> In <em>Proceedings of the International Conference on Physics and Astrophysics of Quark–Gluon Plasma</em>.
+</div>
+<div id="ref-singh2023intermittency" class="csl-entry" role="listitem">
+Singh, Omveer, Anjali Sharma, and Nazeer Ahmad. 2023. <span>“Intermittency Analysis in Relativistic Hydrodynamic Simulations of Heavy-Ion Collisions at FAIR Energies.”</span> <em>European Physical Journal A</em> 59 (4): 92. <a href="https://doi.org/10.1140/epja/s10050-023-00994-w">https://doi.org/10.1140/epja/s10050-023-00994-w</a>.
+</div>
 </div>
 
 
