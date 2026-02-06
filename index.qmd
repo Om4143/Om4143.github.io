@@ -10,12 +10,11 @@ page-layout: full
 about:
   id: hero-heading
   template: trestles
-  title: "Omveer Singh, PhD"
   image-width: 70%
   links:
     - icon: sun
       text: Lab
-      href: https://www.github.com
+      href: https://www.github.com/Om4143
       target: _blank
     - icon: globe
       text: Uprofile
@@ -23,10 +22,10 @@ about:
       target: _blank
     - icon: envelope
       text: E-mail
-      href: mailto:email@gmail.com    
+      href: mailto:omvir.ch@gmail.com    
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com
+      href: https://www.linkedin.com/in/osingh4143/
       target: _blank
     - icon: youtube
       text: YouTube
