@@ -8,7 +8,7 @@ author:
   - name: Nazeer Ahmad
 date: "2023-04-29"
 categories: [paper]
-image: "featured.jpg"
+image: "epjA.webp"
 citation:
   type: article-journal
   container-title: "The European Physical Journal A"
