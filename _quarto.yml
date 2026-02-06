@@ -44,9 +44,9 @@ website:
 
     right: 
       - text: CV
-        href: files/nsf-biosketch.pdf
+        href: files/Curriculum_Vitae_OSingh.pdf
       - icon: github
-        href: https://github.com/drganghe/quarto-academic-website-template
+        href: https://github.com/Om4143
         target: _blank
       - text: "{{< fa brands bluesky >}}"
         href: https://bsky.app
@@ -58,11 +58,11 @@ website:
   page-navigation: true
   
   page-footer: 
-    left: "[Your Name](http://www.github.com) &copy; <script>document.write(new Date().getFullYear())</script>" 
-    center: "Build on [Quart Academic Website Template](https://github.com/drganghe/quarto-academic-website-template) adapted by [Dr. Gang He](http://drganghe.github.io)"
+    left: "[Om4143](http://www.github.com) &copy; <script>document.write(new Date().getFullYear())</script>" 
+    center: ""
     right:  
       - icon: github
-        href: https://github.com/drganghe/quarto-academic-website-template
+        href: https://github.com/Om4143
         target: _blank
       - text: "{{< fa brands bluesky >}}" 
         href: https://bsky.app
