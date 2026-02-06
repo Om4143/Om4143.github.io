@@ -10,6 +10,7 @@ page-layout: full
 about:
   id: hero-heading
   template: trestles
+  title: "Omveer Singh, PhD"
   image-width: 70%
   links:
     - icon: sun
