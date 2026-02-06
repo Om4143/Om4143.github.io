@@ -88,7 +88,7 @@
     "href": "contact.html",
     "title": "Contact",
     "section": "",
-    "text": "Get in touch\n\n\n📍\n\n\n&lt;div class=\"fw-semibold\"&gt;Address&lt;/div&gt;\n&lt;div&gt;Mathildenstrasse, 39&lt;br&gt;Darmstadt, 64285&lt;br&gt;Germany&lt;/div&gt;\n\n\n\n\n📞\n\n\n&lt;div class=\"fw-semibold\"&gt;Phone&lt;/div&gt;\n&lt;div&gt;&lt;a href=\"tel:+4915161018091\"&gt;+49 151 61018091&lt;/a&gt;&lt;/div&gt;\n\n\n\n\n✉️\n\n\n&lt;div class=\"fw-semibold\"&gt;Email&lt;/div&gt;\n&lt;div&gt;&lt;a href=\"mailto:email@gmail.com\"&gt;omvir.ch@gmail.com&lt;/a&gt;&lt;/div&gt;"
+    "text": "Get in touch\n\n\n&lt;div class=\"me-3 fs-4\"&gt;📍&lt;/div&gt;\n&lt;div&gt;\n  &lt;div class=\"fw-semibold\"&gt;Address&lt;/div&gt;\n  &lt;div&gt;\n    Mathildenstrasse, 39&lt;br&gt;\n    Darmstadt, 64285&lt;br&gt;\n    Germany\n  &lt;/div&gt;\n&lt;/div&gt;\n\n\n&lt;div class=\"me-3 fs-4\"&gt;📞&lt;/div&gt;\n&lt;div&gt;\n  &lt;div class=\"fw-semibold\"&gt;Phone&lt;/div&gt;\n  &lt;div&gt;\n    &lt;a href=\"tel:+4915161018091\"&gt;+49 151 61018091&lt;/a&gt;\n  &lt;/div&gt;\n&lt;/div&gt;\n\n\n&lt;div class=\"me-3 fs-4\"&gt;✉️&lt;/div&gt;\n&lt;div&gt;\n  &lt;div class=\"fw-semibold\"&gt;Email&lt;/div&gt;\n  &lt;div&gt;\n    &lt;a href=\"mailto:omvir.ch@gmail.com\"&gt;omvir.ch@gmail.com&lt;/a&gt;\n  &lt;/div&gt;\n&lt;/div&gt;"
   },
   {
     "objectID": "index.html",
