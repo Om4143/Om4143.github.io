@@ -1,14 +1,13 @@
 ---
 title: "Publications"
 description-meta: "Information, PDFs, and social metrics of papers"
-bibliography:
-  - references.bib
-sort: year
+bibliography: references.bib
 csl: nature.csl
 citeproc: true
 nocite: |
   @*
-title-block-banner: false
+reference-section-title: ""
+link-citations: true
 ---
 
 ## All Publications
