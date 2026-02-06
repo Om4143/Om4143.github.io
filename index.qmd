@@ -74,7 +74,17 @@ in Germany (Goethe University Frankfurt, GSI/FAIR).
 
 ## Experience
 
-- Researcher, Univerisity
+Postdoctoral Researcher (Software & Data Systems), Goethe University Frankfurt,
+Frankfurt am Main, Germany
+– Designed and implemented a Quality Assurance (QA) framework for simulation and experimental datasets, enabling automated validation and trend monitoring across detector systems.
+– Integrated automated checks into CI pipelines, improving reliability, regression detection, and
+reproducibility.
+– Developed a CAD → GDML → ROOT pipeline to ingest complex geometry models into
+simulation workflows.
+– Improved runtime and scalability by creating simplified geometry models (primitive solids)
+while preserving key material/physics properties.
+– Built analysis tools to compare datasets, visualize results, and support collaboration-wide data
+quality decisions
 
 ## Education
 
