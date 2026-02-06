@@ -4,12 +4,36 @@ description-meta: "Reach out to me with questions and comments"
 title-block-banner: false
 ---
 
-<center>
+::: {.text-center}
+::: {.card .shadow-sm .mx-auto style="max-width: 520px;"}
+::: {.card-body}
 
-Mathildenstrasse, 39
-Darmstadt, 64285
-Germany
-Contact: +49-151-61018091
+### Get in touch
 
+<div class="d-flex align-items-start text-start mb-3">
+  <div class="me-3 fs-4">📍</div>
+  <div>
+    <div class="fw-semibold">Address</div>
+    <div>Mathildenstrasse, 39<br>Darmstadt, 64285<br>Germany</div>
+  </div>
+</div>
 
-</center>
+<div class="d-flex align-items-start text-start mb-3">
+  <div class="me-3 fs-4">📞</div>
+  <div>
+    <div class="fw-semibold">Phone</div>
+    <div><a href="tel:+4915161018091">+49 151 61018091</a></div>
+  </div>
+</div>
+
+<div class="d-flex align-items-start text-start">
+  <div class="me-3 fs-4">✉️</div>
+  <div>
+    <div class="fw-semibold">Email</div>
+    <div><a href="mailto:email@gmail.com">omvir.ch@gmail.com</a></div>
+  </div>
+</div>
+
+:::
+:::
+:::
