@@ -130,7 +130,7 @@
     "href": "publications.html",
     "title": "Publications",
     "section": "",
-    "text": "Ahmad, Nazeer, Tufail Ahmad, Omveer Singh, and Shakeel Ahmad. 2018. “A Study of Multifractal Analysis in \\(^{16}\\)O-AgBr Collisions at 60A and 200A GeV.” J. Mod. Phys. 9 (5): 1029–36. https://doi.org/10.4236/jmp.2018.95064.\n\n\nKumar, A., A. Agarwal, S. Chatterjee, S. Chattopadhyay, A. K. Dubey, C. Ghosh, E. Nandy, et al. 2021. “Commissioning and Testing of Pre‑series Triple GEM Prototypes for CBM‑MuCh in the mCBM Experiment at the SIS18 Facility of GSI.” Journal of Instrumentation 16 (09): P09002. https://doi.org/10.1088/1748-0221/16/09/P09002."
+    "text": "[1] A. Kumar et al., “Commissioning and testing of pre‑series triple GEM prototypes for CBM‑MuCh in the mCBM experiment at the SIS18 facility of GSI,” Journal of Instrumentation, vol. 16, no. 9, p. P09002, 2021, doi: 10.1088/1748-0221/16/09/P09002.\n\n\n[2] N. Ahmad, T. Ahmad, O. Singh, and S. Ahmad, “A Study of Multifractal Analysis in \\(^{16}\\)O-AgBr Collisions at 60A and 200A GeV,” J. Mod. Phys., vol. 9, no. 5, pp. 1029–1036, 2018, doi: 10.4236/jmp.2018.95064."
   },
   {
     "objectID": "publications.html#all-publications",
@@ -144,20 +144,20 @@
     "href": "publications.html#journal-articles",
     "title": "Publications",
     "section": "",
-    "text": "Ahmad, Nazeer, Tufail Ahmad, Omveer Singh, and Shakeel Ahmad. 2018. “A Study of Multifractal Analysis in \\(^{16}\\)O-AgBr Collisions at 60A and 200A GeV.” J. Mod. Phys. 9 (5): 1029–36. https://doi.org/10.4236/jmp.2018.95064.\n\n\nKumar, A., A. Agarwal, S. Chatterjee, S. Chattopadhyay, A. K. Dubey, C. Ghosh, E. Nandy, et al. 2021. “Commissioning and Testing of Pre‑series Triple GEM Prototypes for CBM‑MuCh in the mCBM Experiment at the SIS18 Facility of GSI.” Journal of Instrumentation 16 (09): P09002. https://doi.org/10.1088/1748-0221/16/09/P09002."
+    "text": "[1] A. Kumar et al., “Commissioning and testing of pre‑series triple GEM prototypes for CBM‑MuCh in the mCBM experiment at the SIS18 facility of GSI,” Journal of Instrumentation, vol. 16, no. 9, p. P09002, 2021, doi: 10.1088/1748-0221/16/09/P09002.\n\n\n[2] N. Ahmad, T. Ahmad, O. Singh, and S. Ahmad, “A Study of Multifractal Analysis in \\(^{16}\\)O-AgBr Collisions at 60A and 200A GeV,” J. Mod. Phys., vol. 9, no. 5, pp. 1029–1036, 2018, doi: 10.4236/jmp.2018.95064."
   },
   {
     "objectID": "publications.html#conference-proceedings",
     "href": "publications.html#conference-proceedings",
     "title": "Publications",
     "section": "Conference Proceedings",
-    "text": "Conference Proceedings\n\n\nHushnud, H., O. Singh, S. K. Tripathy, A. N. Mishra, and K. Dey. 2023. “Effect of Event Classifiers on Jet Quenching–Like Signatures in High‑multiplicity \\(p + p\\) Collisions at \\(\\sqrt{s}=13\\) TeV.” In arXiv Preprint. https://arxiv.org/abs/2309.09533."
+    "text": "Conference Proceedings\n\n\n[1] H. Hushnud, O. Singh, S. K. Tripathy, A. N. Mishra, and K. Dey, “Effect of event classifiers on jet quenching–like signatures in high‑multiplicity \\(p + p\\) collisions at \\(\\sqrt{s}=13\\) TeV,” in arXiv preprint, Sep. 2023. Available: https://arxiv.org/abs/2309.09533"
   },
   {
     "objectID": "publications.html#reports-technical-notes",
     "href": "publications.html#reports-technical-notes",
     "title": "Publications",
     "section": "Reports & Technical Notes",
-    "text": "Reports & Technical Notes\n\n\nChatterjee, S., O. Singh, A. Senger, P. P. Bhaduri, and S. Chattopadhyay. 2020. “Reconstruction of j/\\(\\psi\\) Mesons at SIS100 Energies with Realistic MuCh Set Up.” CBM Progress Report 2019. GSI Helmholtzzentrum für Schwerionenforschung. https://doi.org/10.15120/GSI-2020-009041.\n\n\nSingh, O., S. Chatterjee, P. P. Bhaduri, and S. Chattopadhyay. 2021. “Implementation and Performance Simulation of Realistic Design of the GEM Chambers for the First Two Stations of MuCh.” CBM Progress Report 2020. GSI Helmholtzzentrum für Schwerionenforschung. https://doi.org/10.15120/GSI-2021-00421."
+    "text": "Reports & Technical Notes\n\n\n[1] O. Singh, S. Chatterjee, P. P. Bhaduri, and S. Chattopadhyay, “Implementation and performance simulation of realistic design of the GEM chambers for the first two stations of MuCh,” GSI Helmholtzzentrum für Schwerionenforschung, CBM Progress Report 2020, 2021. doi: 10.15120/GSI-2021-00421.\n\n\n[2] S. Chatterjee, O. Singh, A. Senger, P. P. Bhaduri, and S. Chattopadhyay, “Reconstruction of j/\\(\\psi\\) mesons at SIS100 energies with realistic MuCh set up,” GSI Helmholtzzentrum für Schwerionenforschung, CBM Progress Report 2019, 2020. doi: 10.15120/GSI-2020-009041."
   }
 ]
