@@ -77,9 +77,13 @@ in Germany (Goethe University Frankfurt, GSI/FAIR).
 - Postdoctoral Researcher (Software & Data Systems), Goethe University Frankfurt, Frankfurt am Main, Germany
 - Software Engineering Intern, GSI Helmholtz Centre for Heavy Ion Research (FAIR), Darmstadt, Germany
 - PhD Researcher (Data Analysis & Scientific Software), Aligarh Muslim University, Aligarh, India
+
 ## Education
 
-- PhD, Univerisity
+- Ph.D. Experimental High Energy Physics, Aligarh Muslim University, India
+- M.Phil. Physics, Aligarh Muslim University, India
+- M.Sc. Physics, Aligarh Muslim University, India
+- B.Sc. (Hons.) Physics, Aligarh Muslim University, India
 
 :::
 
