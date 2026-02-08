@@ -9,7 +9,7 @@ bibliography:
   journals: bib/articles.bib
   proceedings: bib/proceedings.bib
   reports: bib/reports.bib
-csl: nature.csl
+csl: apa.csl
 citeproc: true
 nocite: |
   @*
