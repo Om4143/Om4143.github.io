@@ -1,8 +1,10 @@
 /* css styles */
-.about .about-image img,
-img.profile,
-img.avatar {
-  border-radius: 50%;
+/* Force circular profile image on the Quarto "about" (trestles) homepage */
+.quarto-about-trestles .about-image img,
+.quarto-about-trestles img,
+.about-image img,
+#hero-heading img {
+  border-radius: 50% !important;
   aspect-ratio: 1 / 1;
   object-fit: cover;
 }
