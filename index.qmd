@@ -69,37 +69,36 @@ about:
 
 
 
-I am a researcher and scientific software engineer with over eight years of experience in
-**high-energy nuclear physics**, **detector simulation**, and **data-driven computing**.
-My work focuses on transforming complex, large-scale scientific data into **reliable,
-actionable insights** using reproducible and well-engineered analysis pipelines.
+### Profile
 
-Alongside academic research, I bring strong **data analytics skills**,
-including statistical modeling, exploratory data analysis, and automation of end-to-end
-workflows. I have extensive experience working in international, cross-functional teams
-within collaborations such as **CBM/FAIR**, **GSI Helmholtz Centre**, and
-**Goethe University Frankfurt**.
+I am a researcher and scientific software engineer with 8+ years of experience working with
+large-scale scientific data, detector simulations, and reproducible analysis pipelines.
+
+I specialize in transforming complex datasets into **reliable, actionable insights** through
+well-engineered workflows, developed within international collaborations such as **CBM/FAIR,
+GSI Helmholtz Centre**, and **Goethe University Frankfurt**.
+
 
 ### Research & Data Analytics Expertise
 
+- Data analysis, exploratory statistics, and modeling using **Python** (pandas, NumPy, SciPy) and ROOT  
+- Querying and analyzing structured datasets using **SQL**  
+- Data cleaning, transformation, and validation across heterogeneous data sources  
 - Scientific software development in **C++ and Python**  
-- Detector simulation, geometry modeling, and performance evaluation  
-- Reproducible workflows, **CMake-based builds**, CI/CD, and automated testing 
-- Data analysis and exploratory statistics using **Python** (pandas, NumPy, SciPy) and ROOT  
-- Querying and analyzing relational datasets using **SQL**  
-- Data cleaning, transformation, and validation across multiple data sources  
-- Data visualization and reporting to communicate trends and results clearly
- 
-
-### Current Research & Applied Interests
-
-- Exploratory data analysis and statistical pattern identification in complex datasets  
-- Simulation-driven validation and performance optimization  
-- Scalable, maintainable data analysis pipelines for research and industry  
-- Applying quantitative and data-driven approaches to real-world analytical problems
+- Reproducible workflows, **CMake-based builds**, CI/CD, and automated testing  
+- Data visualization and reporting for clear technical and non-technical communication
 
 
-### Selected Links
+### What I Work On
+
+- Designing reliable data analysis pipelines for large and complex datasets  
+- Validating simulations and experimental data through statistical analysis  
+- Building maintainable scientific software used by distributed research teams  
+- Applying physics-informed data analysis techniques to real-world problems
+
+**Tech stack:** Python · SQL · C++ · Git · Linux · ROOT · CMake · CI/CD
+
+### Get Started
 
 - **Curriculum Vitae:** [PDF](files/Curriculum_Vitae_OSingh.pdf)  
 - **Publications:** [Complete list](publications.qmd) | [Selected papers](posts.qmd#category=paper)  
