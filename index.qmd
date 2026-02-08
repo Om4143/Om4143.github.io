@@ -1,6 +1,6 @@
 ---
 title: "Omveer Singh, PhD"
-description-meta: "Postdoctoral Researcher — Scientific Software & Data Systems"
+description: "Postdoctoral Researcher — Scientific Software & Data Systems"
 image: "files/images/om.jpg"
 page-navigation: false
 toc: false
