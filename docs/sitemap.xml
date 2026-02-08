@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://drganghe.github.io/quarto-academic-website-template/posts.html</loc>
-    <lastmod>2026-02-06T20:05:20.317Z</lastmod>
+    <loc>https://drganghe.github.io/quarto-academic-website-template/professional.html</loc>
+    <lastmod>2026-02-08T16:36:36.471Z</lastmod>
+  </url>
+  <url>
+    <loc>https://drganghe.github.io/quarto-academic-website-template/people.html</loc>
+    <lastmod>2026-02-06T14:18:58.296Z</lastmod>
   </url>
   <url>
     <loc>https://drganghe.github.io/quarto-academic-website-template/publications.html</loc>
@@ -29,7 +33,11 @@
     <lastmod>2026-02-08T16:27:29.281Z</lastmod>
   </url>
   <url>
-    <loc>https://drganghe.github.io/quarto-academic-website-template/people.html</loc>
-    <lastmod>2026-02-06T14:18:58.296Z</lastmod>
+    <loc>https://drganghe.github.io/quarto-academic-website-template/academic.html</loc>
+    <lastmod>2026-02-08T16:36:39.146Z</lastmod>
+  </url>
+  <url>
+    <loc>https://drganghe.github.io/quarto-academic-website-template/posts.html</loc>
+    <lastmod>2026-02-06T20:05:20.317Z</lastmod>
   </url>
 </urlset>

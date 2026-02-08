@@ -1,10 +1,24 @@
 [
   {
-    "objectID": "posts.html",
-    "href": "posts.html",
-    "title": "What’s New & Updated",
+    "objectID": "people.html",
+    "href": "people.html",
+    "title": "People",
     "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nIntermittency analysis in relativistic hydrodynamic simulations of heavy-ion collision at FAIR energies\n\n\nThe European Physical Journal A\n\n\n\npaper\n\n\n\n\n\n\n\n\n\nApr 29, 2023\n\n\nOmveer Singh, Anjali Sharma, Nazeer Ahmad\n\n\n\n\n\nNo matching items"
+    "text": "PhD Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nMasters Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nUndergraduate Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nPI\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "people.html#team",
+    "href": "people.html#team",
+    "title": "People",
+    "section": "",
+    "text": "PhD Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nMasters Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nUndergraduate Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nPI\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "people.html#alumni",
+    "href": "people.html#alumni",
+    "title": "People",
+    "section": "Alumni",
+    "text": "Alumni\n\n\n   \n    \n    \n      Order By\n      Default\n      \n      \n      \n        Name\n      \n      \n        Role\n      \n      \n        Started\n      \n      \n        Ended\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n \n\n\n\nName\n\n\n\nRole\n\n\n\nStarted\n\n\n\nEnded\n\n\n\n\n\n\n\n\n\n\n\nAlumni A\n\n\nPhD Alumni\n\n\n2022-01\n\n\n2026-01\n\n\n\n\n\n\n\n\n\nAlumni B\n\n\nMasters Alumni\n\n\n2024-01\n\n\n2025-01\n\n\n\n\n\n\n\n\n\nAlumni C\n\n\nUndergraduate Alumni\n\n\n2023-01\n\n\n2024-01\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "publications.html",
@@ -98,24 +112,10 @@
     "text": "E-mail\n  \n  \n    \n     LinkedIn\n  \n\n  \n  \n\nProfile\nI am a researcher and scientific software engineer with 8+ years of experience working with large-scale scientific data, detector simulations, and reproducible analysis pipelines.\nI specialize in transforming complex datasets into reliable, actionable insights through well-engineered workflows, developed within international collaborations such as CBM/FAIR, GSI Helmholtz Centre, and Goethe University Frankfurt.\n\n\nResearch & Data Analytics Expertise\n\nData analysis, exploratory statistics, and modeling using Python (pandas, NumPy, SciPy) and ROOT\n\nQuerying and analyzing structured datasets using SQL\n\nData cleaning, transformation, and validation across heterogeneous data sources\n\nScientific software development in C++ and Python\n\nReproducible workflows, CMake-based builds, CI/CD, and automated testing\n\nData visualization and reporting for clear technical and non-technical communication\n\n\n\nWhat I Work On\n\nDesigning reliable data analysis pipelines for large and complex datasets\n\nValidating simulations and experimental data through statistical analysis\n\nBuilding maintainable scientific software used by distributed research teams\n\nApplying physics-informed data analysis techniques to real-world problems\n\nTech stack: Python · SQL · C++ · Git · Linux · ROOT · CMake · CI/CD\n\n\nGet Started\n\nCurriculum Vitae: PDF\n\nPublications: Complete list | Selected papers\n\nGitHub: https://github.com/Om4143\n\nContact: Get in touch"
   },
   {
-    "objectID": "people.html",
-    "href": "people.html",
-    "title": "People",
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "What’s New & Updated",
     "section": "",
-    "text": "PhD Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nMasters Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nUndergraduate Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nPI\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "people.html#team",
-    "href": "people.html#team",
-    "title": "People",
-    "section": "",
-    "text": "PhD Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nMasters Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nUndergraduate Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nPI\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "people.html#alumni",
-    "href": "people.html#alumni",
-    "title": "People",
-    "section": "Alumni",
-    "text": "Alumni\n\n\n   \n    \n    \n      Order By\n      Default\n      \n      \n      \n        Name\n      \n      \n        Role\n      \n      \n        Started\n      \n      \n        Ended\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n \n\n\n\nName\n\n\n\nRole\n\n\n\nStarted\n\n\n\nEnded\n\n\n\n\n\n\n\n\n\n\n\nAlumni A\n\n\nPhD Alumni\n\n\n2022-01\n\n\n2026-01\n\n\n\n\n\n\n\n\n\nAlumni B\n\n\nMasters Alumni\n\n\n2024-01\n\n\n2025-01\n\n\n\n\n\n\n\n\n\nAlumni C\n\n\nUndergraduate Alumni\n\n\n2023-01\n\n\n2024-01\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nIntermittency analysis in relativistic hydrodynamic simulations of heavy-ion collision at FAIR energies\n\n\nThe European Physical Journal A\n\n\n\npaper\n\n\n\n\n\n\n\n\n\nApr 29, 2023\n\n\nOmveer Singh, Anjali Sharma, Nazeer Ahmad\n\n\n\n\n\nNo matching items"
   }
 ]
