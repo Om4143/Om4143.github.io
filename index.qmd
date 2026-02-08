@@ -1,6 +1,6 @@
 ---
 title: "Omveer Singh, PhD"
-description: "Postdoctoral Researcher — Scientific Software & Data Systems"
+description: "Postdoctoral Researcher | Scientific Software Developer | Data Analyst"
 image: "files/images/om.jpg"
 page-navigation: false
 toc: false
@@ -69,21 +69,35 @@ about:
 
 
 
-I am a researcher and scientific software engineer with over eight years of experience in **high-energy nuclear physics**, **detector simulation**, and **data-driven scientific computing**. My work focuses on developing robust, reproducible software pipelines for large-scale simulations and physics analysis within international collaborations, including **CBM/FAIR**, **GSI Helmholtz Centre**, and **Goethe University Frankfurt**.
+I am a researcher and scientific software engineer with over eight years of experience in
+**high-energy nuclear physics**, **detector simulation**, and **data-driven computing**.
+My work focuses on transforming complex, large-scale scientific data into **reliable,
+actionable insights** using reproducible and well-engineered analysis pipelines.
 
-### Research & Technical Expertise
+Alongside academic research, I bring strong **data analytics skills**,
+including statistical modeling, exploratory data analysis, and automation of end-to-end
+workflows. I have extensive experience working in international, cross-functional teams
+within collaborations such as **CBM/FAIR**, **GSI Helmholtz Centre**, and
+**Goethe University Frankfurt**.
+
+### Research & Data Analytics Expertise
 
 - Scientific software development in **C++ and Python**  
-- Detector simulation, geometry modeling, and performance validation (ROOT, CBM software stack)  
-- Data analysis and statistical studies in relativistic heavy-ion collisions  
-- Reproducible workflows, **CMake-based builds**, CI/CD, and automated validation  
-- Collaborative research software development in multi-institution environments
+- Detector simulation, geometry modeling, and performance evaluation  
+- Reproducible workflows, **CMake-based builds**, CI/CD, and automated testing 
+- Data analysis and exploratory statistics using **Python** (pandas, NumPy, SciPy) and ROOT  
+- Querying and analyzing relational datasets using **SQL**  
+- Data cleaning, transformation, and validation across multiple data sources  
+- Data visualization and reporting to communicate trends and results clearly
+ 
 
-### Current Research Interests
+### Current Research & Applied Interests
 
-- Simulation and validation of detector geometries for FAIR experiments  
-- Intermittency and fluctuation analysis in heavy-ion collisions  
-- High-performance and maintainable scientific software infrastructures
+- Exploratory data analysis and statistical pattern identification in complex datasets  
+- Simulation-driven validation and performance optimization  
+- Scalable, maintainable data analysis pipelines for research and industry  
+- Applying quantitative and data-driven approaches to real-world analytical problems
+
 
 ### Selected Links
 
