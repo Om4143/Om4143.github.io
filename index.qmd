@@ -66,24 +66,32 @@ about:
 ---
 
 :::{#hero-heading}
-Software Developer and Data Analyst with 8+ years of experience in scientific software
-engineering, data analysis, and high-performance computing. Strong background in Python
-and C++, building maintainable tools, automated QA/validation, CI/CD workflows, and
-data pipelines. Experienced in international teams and research-industry style environments
-in Germany (Goethe University Frankfurt, GSI/FAIR). 
 
-## Experience
+**Omveer Singh, PhD**  
+Postdoctoral Researcher — Scientific Software & Data Systems
 
-- Postdoctoral Researcher (Software & Data Systems), Goethe University Frankfurt, Frankfurt am Main, Germany
-- Software Engineering Intern, GSI Helmholtz Centre for Heavy Ion Research (FAIR), Darmstadt, Germany
-- PhD Researcher (Data Analysis & Scientific Software), Aligarh Muslim University, Aligarh, India
+I am a researcher and scientific software engineer with over eight years of experience in **high-energy nuclear physics**, **detector simulation**, and **data-driven scientific computing**. My work focuses on developing robust, reproducible software pipelines for large-scale simulations and physics analysis within international collaborations, including **CBM/FAIR**, **GSI Helmholtz Centre**, and **Goethe University Frankfurt**.
 
-## Education
+### Research & Technical Expertise
 
-- Ph.D. Experimental High Energy Physics, Aligarh Muslim University, India
-- M.Phil. Physics, Aligarh Muslim University, India
-- M.Sc. Physics, Aligarh Muslim University, India
-- B.Sc. (Hons.) Physics, Aligarh Muslim University, India
+- Scientific software development in **C++ and Python**  
+- Detector simulation, geometry modeling, and performance validation (ROOT, CBM software stack)  
+- Data analysis and statistical studies in relativistic heavy-ion collisions  
+- Reproducible workflows, **CMake-based builds**, CI/CD, and automated validation  
+- Collaborative research software development in multi-institution environments
+
+### Current Research Interests
+
+- Simulation and validation of detector geometries for FAIR experiments  
+- Intermittency and fluctuation analysis in heavy-ion collisions  
+- High-performance and maintainable scientific software infrastructures
+
+### Selected Links
+
+- **Curriculum Vitae:** [PDF](files/Curriculum_Vitae_OSingh.pdf)  
+- **Publications:** [Complete list](publications.qmd) | [Selected papers](posts.qmd#category=paper)  
+- **GitHub:** [https://github.com/Om4143](https://github.com/Om4143)  
+- **Contact:** [Get in touch](contact.qmd)
 
 :::
 
