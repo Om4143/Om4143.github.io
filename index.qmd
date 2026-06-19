@@ -100,6 +100,8 @@ engineering and data roles in industry.
 - **Domain:** scientific computing, detector simulation, large-scale data pipelines (ROOT)
 
 **Tech stack:** Python · SQL · C++ · pandas · Git · Docker · CMake · CI/CD · Tableau · Linux
+
+
 ### Get Started
 
 - **Projects:** [Selected work](projects.html)
