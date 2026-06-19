@@ -102,6 +102,7 @@ engineering and data roles in industry.
 **Tech stack:** Python · SQL · C++ · pandas · Git · Docker · CMake · CI/CD · Tableau · Linux
 ### Get Started
 
+- **Projects:** [Selected work](projects.html)
 - **Curriculum Vitae:** [PDF](files/Curriculum_Vitae_OSingh.pdf)  
 - **Publications:** [Complete list](publications.qmd) | [Selected papers](posts.qmd#category=paper)  
 - **GitHub:** [https://github.com/Om4143](https://github.com/Om4143)  
