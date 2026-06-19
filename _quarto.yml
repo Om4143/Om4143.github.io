@@ -3,14 +3,14 @@ project:
   output-dir: docs
 
 # Meta
-description-meta: "Website Om"
-author-meta: "Dr. Omveer Singh"
+description-meta: "Software engineer & data analyst — Python, C++, SQL, CI/CD. 8+ years with large-scale scientific data."  # CHANGED (was "Website Om")
+author-meta: "Omveer Singh"  # CHANGED (dropped "Dr." to match LinkedIn/CV branding; revert if you prefer)
 
 website:
   title: "Omveer Singh"
-  image: ""
-  description: ""
- 
+  image: "files/images/om.jpg"  # CHANGED (was "") — drives the link-preview image from YOUR domain
+  description: "Software engineer & data analyst — Python, C++, SQL, CI/CD. 8+ years turning large-scale scientific data into reliable insights."  # CHANGED (was "")
+
   navbar:
     background: light  # You can change the background color here
 
@@ -22,79 +22,84 @@ website:
          # - text: News
          #   href: posts.qmd#category=news
          # - text: Events
-         #   href: posts.qmd#category=event      
+         #   href: posts.qmd#category=event
           - text: Contact
-            href: contact.qmd             
+            href: contact.qmd
       - text: Research
         menu:
+          - text: Projects
+            href: projects.qmd
           - text: List of Publications
             href: publications.qmd
           - text: Selected Papers
             href: posts.qmd#category=paper
          # - text: Grants
-         #   href: projects.qmd                                
+         #   href: projects.qmd
       #- text: Teaching # Comment the Teaching part out to remove the Teaching page
       #  href: teaching.qmd
       - text: Certificates
-        menu:        
+        menu:
         - text: Academic
           href: academic.qmd
         - text: Professional
           href: professional.qmd
-      #    href: posts.qmd#category=presentation                   
+      #    href: posts.qmd#category=presentation
       #- text: Group   # Comment the Group part out to remove the Group page
       #  href: people.qmd
 
-    right: 
+    right:
       - text: CV
         href: files/Curriculum_Vitae_OSingh.pdf
       - icon: github
         href: https://github.com/Om4143
         target: _blank
-      - text: "{{< fa brands bluesky >}}"
-        href: https://bsky.app
-        target: _blank      
+      # CHANGED: Bluesky was a placeholder link to https://bsky.app (dead link).
+      # Re-enable by uncommenting and adding YOUR handle, or leave commented to hide it.
+      # - text: "{{< fa brands bluesky >}}"
+      #   href: https://bsky.app/profile/YOUR-HANDLE
+      #   target: _blank
       - icon: rss
         href: posts.xml
         target: _blank
-  
+
   page-navigation: true
-  
-  page-footer: 
-    left: "[Om4143](http://www.github.com) &copy; <script>document.write(new Date().getFullYear())</script>" 
+
+  page-footer:
+    left: "[Omveer Singh](https://github.com/Om4143) &copy; <script>document.write(new Date().getFullYear())</script>"  # CHANGED (was a link to generic http://www.github.com)
     center: ""
-    right:  
+    right:
       - icon: github
         href: https://github.com/Om4143
         target: _blank
-      - text: "{{< fa brands bluesky >}}" 
-        href: https://bsky.app
-        target: _blank
+      # CHANGED: Bluesky placeholder removed here too — re-add with your handle if you want it.
+      # - text: "{{< fa brands bluesky >}}"
+      #   href: https://bsky.app/profile/YOUR-HANDLE
+      #   target: _blank
       - icon: rss
         href: posts.xml
-        target: _blank  
-  
+        target: _blank
+
   search:
     location: navbar
     type: textbox
-  
+
   reader-mode: true
 
   draft-mode: unlinked
-  
-  repo-url: https://github.com/drganghe/quarto-academic-website-template
+
+  repo-url: https://github.com/Om4143/Om4143.github.io  # CHANGED (was the template author's repo) — adjust if your site repo has a different name
 #  repo-actions: [edit, issue, source]
-  
+
   open-graph: true
-  
-  twitter-card: true 
-#  card-style: summary      
-  
-  site-url: "https://drganghe.github.io/quarto-academic-website-template"
-  
+
+  twitter-card: true
+#  card-style: summary
+
+  site-url: "https://om4143.github.io"  # CHANGED (was drganghe's template URL) — THIS is the key fix for link previews & canonical URLs
+
   google-analytics:
     tracking-id: ""  # Please delete or replace with your own tracking ID
-    anonymize-ip: true 
+    anonymize-ip: true
 
 bibliography: references.bib  # Add references.bib to the root folder to enable the bibliography function
 
@@ -111,6 +116,5 @@ format:
     link-external-icon: false
     link-external-newwindow: true
     email-obfuscation: javascript
-    link-external-filter: '^(?:http:|https:)\/\/drganghe\.github\.io\/custom'
+    link-external-filter: '^(?:http:|https:)\/\/om4143\.github\.io\/custom'  # CHANGED (was drganghe's domain) — keeps your own links from being treated as external
     include-in-header: "files/includes/_academic.qmd"
-

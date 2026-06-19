@@ -6,8 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Dr.&nbsp;Omveer Singh">
-<meta name="description" content="Website Om">
+<meta name="author" content="Omveer Singh">
+<meta name="description" content="Software engineer &amp; data analyst — Python, C++, SQL, CI/CD. 8+ years with large-scale scientific data.">
 
 <title>Projects – Omveer Singh</title>
 <style>
@@ -43,8 +43,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-3e8f12d1b5c8d04d32925f9f9ead600c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -105,10 +103,12 @@ https://badge.dimensions.ai/
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="Projects – Omveer Singh">
 <meta property="og:description" content="Selected software-engineering and data-analysis work.">
+<meta property="og:image" content="https://om4143.github.io/files/images/om.jpg">
 <meta property="og:site_name" content="Omveer Singh">
 <meta name="twitter:title" content="Projects – Omveer Singh">
 <meta name="twitter:description" content="Selected software-engineering and data-analysis work.">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://om4143.github.io/files/images/om.jpg">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -145,6 +145,10 @@ https://badge.dimensions.ai/
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-research">    
         <li>
+    <a class="dropdown-item" href="./projects.html">
+ <span class="dropdown-text">Projects</span></a>
+  </li>  
+        <li>
     <a class="dropdown-item" href="./publications.html">
  <span class="dropdown-text">List of Publications</span></a>
   </li>  
@@ -180,10 +184,6 @@ https://badge.dimensions.ai/
 </i> 
 <span class="menu-text"></span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="https://bsky.app" target="_blank"> 
-<span class="menu-text"><i class="fa-brands fa-bluesky" aria-label="bluesky"></i></span></a>
-  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="./posts.xml" target="_blank"> <i class="bi bi-rss" role="img">
 </i> 
@@ -212,7 +212,6 @@ https://badge.dimensions.ai/
   <ul>
   <li><a href="#selected-projects" id="toc-selected-projects" class="nav-link active" data-scroll-target="#selected-projects">Selected Projects</a>
   <ul class="collapse">
-  <li><a href="#dataqa-data-quality-validation-toolkit" id="toc-dataqa-data-quality-validation-toolkit" class="nav-link" data-scroll-target="#dataqa-data-quality-validation-toolkit">dataqa — Data-quality validation toolkit</a></li>
   <li><a href="#interactive-data-dashboards" id="toc-interactive-data-dashboards" class="nav-link" data-scroll-target="#interactive-data-dashboards">Interactive data dashboards</a></li>
   <li><a href="#qa-framework-cicd-for-detector-data-cbm-fair" id="toc-qa-framework-cicd-for-detector-data-cbm-fair" class="nav-link" data-scroll-target="#qa-framework-cicd-for-detector-data-cbm-fair">QA framework &amp; CI/CD for detector data (CBM / FAIR)</a></li>
   <li><a href="#cad-gdml-root-geometry-pipeline" id="toc-cad-gdml-root-geometry-pipeline" class="nav-link" data-scroll-target="#cad-gdml-root-geometry-pipeline">CAD → GDML → ROOT geometry pipeline</a></li>
@@ -250,12 +249,6 @@ https://badge.dimensions.ai/
 
 <section id="selected-projects" class="level2">
 <h2 class="anchored" data-anchor-id="selected-projects">Selected Projects</h2>
-<section id="dataqa-data-quality-validation-toolkit" class="level3">
-<h3 class="anchored" data-anchor-id="dataqa-data-quality-validation-toolkit">dataqa — Data-quality validation toolkit</h3>
-<p><code>Python</code> · <code>CI/CD</code> · <code>pytest</code> · <code>Docker</code></p>
-<p>A declarative data-quality framework: it validates tabular datasets against version-controlled YAML rules and detects <strong>regressions</strong> against a recorded baseline — null-rate drift, row-count collapse, dtype changes, distribution shift. Returns CI-friendly exit codes, so it drops straight into a pipeline as a data-quality gate. Distils the automated-QA work from my postdoc into a clean, general-purpose tool.</p>
-<p><a href="https://github.com/Om4143/dataqa">GitHub repository →</a></p>
-</section>
 <section id="interactive-data-dashboards" class="level3">
 <h3 class="anchored" data-anchor-id="interactive-data-dashboards">Interactive data dashboards</h3>
 <p><code>Tableau</code> · <code>data cleaning</code> · <code>data storytelling</code></p>
@@ -356,7 +349,7 @@ https://badge.dimensions.ai/
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("^(?:http:|https:)\/\/drganghe\.github\.io\/custom");
+        var filterRegex = new RegExp("^(?:http:|https:)\/\/om4143\.github\.io\/custom");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -692,7 +685,7 @@ https://badge.dimensions.ai/
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<a href="http://www.github.com">Om4143</a> ©
+<a href="https://github.com/Om4143">Omveer Singh</a> ©
 <script>document.write(new Date().getFullYear())</script>
 </div>   
     <div class="nav-footer-center">
@@ -705,11 +698,6 @@ https://badge.dimensions.ai/
       <i class="bi bi-github" role="img">
 </i> 
     </a>
-  </li>  
-    <li class="nav-item">
-    <a class="nav-link" href="https://bsky.app" target="_blank">
-<p><i class="fa-brands fa-bluesky" aria-label="bluesky"></i></p>
-</a>
   </li>  
     <li class="nav-item compact">
     <a class="nav-link" href="./posts.xml" target="_blank">

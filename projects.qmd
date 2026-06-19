@@ -5,18 +5,6 @@ description: "Selected software-engineering and data-analysis work."
 
 ## Selected Projects
 
-### dataqa — Data-quality validation toolkit
-`Python` · `CI/CD` · `pytest` · `Docker`
-
-A declarative data-quality framework: it validates tabular datasets against
-version-controlled YAML rules and detects **regressions** against a recorded
-baseline — null-rate drift, row-count collapse, dtype changes, distribution
-shift. Returns CI-friendly exit codes, so it drops straight into a pipeline as a
-data-quality gate. Distils the automated-QA work from my postdoc into a clean,
-general-purpose tool.
-
-[GitHub repository →](https://github.com/Om4143/dataqa)
-
 ### Interactive data dashboards
 `Tableau` · `data cleaning` · `data storytelling`
 
