@@ -1,6 +1,6 @@
 ---
 title: "Omveer Singh, PhD"
-description: "Postdoctoral Researcher | Scientific Software Developer | Data Analyst"
+description: "**Software Engineer & Data Analyst** | Scientific Computing · Data Pipelines · CI/CD"
 image: "files/images/om.jpg"
 page-navigation: false
 toc: false
@@ -71,39 +71,42 @@ about:
 
 ### Profile
 
-I am a researcher and scientific software engineer with 8+ years of experience working with
-large-scale scientific data, detector simulations, and reproducible analysis pipelines.
+I'm a software engineer and data analyst with 8+ years building Python and C++
+software, automated QA frameworks, and reliable data-processing pipelines within
+large international research collaborations (**CBM/FAIR**, **GSI Helmholtz Centre**,
+and **Goethe University Frankfurt**).
 
-I specialize in transforming complex datasets into **reliable, actionable insights** through
-well-engineered workflows, developed within international collaborations such as **CBM/FAIR,
-GSI Helmholtz Centre**, and **Goethe University Frankfurt**.
-
-
-### Research & Data Analytics Expertise
-
-- Data analysis, exploratory statistics, and modeling using **Python** (pandas, NumPy, SciPy) and ROOT  
-- Querying and analyzing structured datasets using **SQL**  
-- Data cleaning, transformation, and validation across heterogeneous data sources  
-- Scientific software development in **C++ and Python**  
-- Reproducible workflows, **CMake-based builds**, CI/CD, and automated testing  
-- Data visualization and reporting for clear technical and non-technical communication
+I turn complex, large-scale datasets into **reliable, decision-ready insights**
+through well-engineered, reproducible workflows — and I'm now focused on software
+engineering and data roles in industry.
 
 
-### What I Work On
+### What I do
 
-- Designing reliable data analysis pipelines for large and complex datasets  
-- Validating simulations and experimental data through statistical analysis  
-- Building maintainable scientific software used by distributed research teams  
-- Applying physics-informed data analysis techniques to real-world problems
+- Design and ship maintainable **Python / C++** software, with automated testing
+  and **CI/CD**.
+- Build **data-quality and validation frameworks** that catch regressions
+  automatically.
+- Turn large, messy datasets into validated insights, **dashboards**, and reports.
+- Optimise performance — e.g. an **8× runtime reduction** on a geometry-processing
+  pipeline, with full accuracy preserved.
 
-**Tech stack:** Python · SQL · C++ · Git · Linux · ROOT · CMake · CI/CD
+### Core skills
 
+- **Languages:** Python, C++, SQL, R
+- **Data & analysis:** pandas, NumPy, statistical analysis, data validation &
+  cleaning, Tableau
+- **Software & DevOps:** Git, Docker, CMake, CI/CD, automated testing, Linux / HPC
+- **Domain:** scientific computing, detector simulation, large-scale data pipelines (ROOT)
+
+**Tech stack:** Python · SQL · C++ · pandas · Git · Docker · CMake · CI/CD · Tableau · Linux
 ### Get Started
 
 - **Curriculum Vitae:** [PDF](files/Curriculum_Vitae_OSingh.pdf)  
 - **Publications:** [Complete list](publications.qmd) | [Selected papers](posts.qmd#category=paper)  
 - **GitHub:** [https://github.com/Om4143](https://github.com/Om4143)  
 - **Contact:** [Get in touch](contact.qmd)
+
 
 :::
 
