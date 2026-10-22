@@ -3,13 +3,13 @@ project:
   output-dir: docs
 
 # Meta
-description-meta: "Software engineer & data analyst — Python, C++, SQL, CI/CD. 8+ years with large-scale scientific data."  # CHANGED (was "Website Om")
+description-meta: "Data analyst — Python, SQL, Tableau, ETL pipelines, A/B testing. PhD with 8+ years of large-scale data analysis."
 author-meta: "Omveer Singh"  # CHANGED (dropped "Dr." to match LinkedIn/CV branding; revert if you prefer)
 
 website:
   title: "Omveer Singh"
   image: "files/images/om.jpg"  # CHANGED (was "") — drives the link-preview image from YOUR domain
-  description: "Software engineer & data analyst — Python, C++, SQL, CI/CD. 8+ years turning large-scale scientific data into reliable insights."  # CHANGED (was "")
+  description: "Data analyst — Python, SQL, Tableau, ETL pipelines and A/B testing. PhD with 8+ years turning large-scale data into trusted, decision-ready insights."
 
   navbar:
     background: light  # You can change the background color here
@@ -17,6 +17,8 @@ website:
     left:   # You can comment out all navigation items here if you just like to keep the index page only
 #      - text: Home
 #        href: index.qmd
+      - text: Projects
+        href: projects.qmd
       - text: About
         menu:
          # - text: News
@@ -27,8 +29,6 @@ website:
             href: contact.qmd
       - text: Research
         menu:
-          - text: Projects
-            href: projects.qmd
           - text: List of Publications
             href: publications.qmd
           - text: Selected Papers

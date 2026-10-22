@@ -1,25 +1,84 @@
 ---
 title: "Projects"
-description: "Selected software-engineering and data-analysis work."
+description: "Selected data-analysis and software-engineering work."
 ---
 
-## Selected Projects
+## Data Analytics Projects
 
-### Interactive data dashboards
-`Tableau` · `data cleaning` · `data storytelling`
+### Market-Entry Analysis
+`MySQL` · `SQL` · `Tableau`
 
-Interactive dashboards that turn raw datasets into decision-ready insights —
-from cleaning and transformation through to the final visual narrative.
+Queried a 9-table marketplace database to decide whether an online tech retailer
+should partner with a Brazilian platform. Found that ~93% of orders arrive on time
+and tech makes up ~14% of revenue; recommended signing the deal and presented the
+results in a Tableau dashboard.
 
+[GitHub repository →](https://github.com/Om4143/eniac-magist-analysis)
+
+### Playlist Clustering for a Music Startup
+`Python` · `Scikit-learn` · `Spotify API`
+
+Built a K-Means model that grouped 5,000+ Spotify songs into 34 playlists of
+50–250 songs each, to test whether machine learning can replace manual curation.
+Cleaned the data (duplicates, outliers, feature selection), compared 5 scaling
+methods and reduced 9 audio features with PCA while keeping 95% of the variance.
+Published the playlists via the Spotify Web API and explained the limits to a
+non-technical audience: the model makes good first drafts, but an expert should
+still review them.
+
+[GitHub repository →](https://github.com/Om4143/moosic-playlist-clustering)
+
+### Automated Cloud Data Pipeline for E-Scooter Demand Analysis
+`Python` · `MySQL` · `BeautifulSoup` · `REST APIs` · `Google Cloud`
+
+Built an end-to-end ETL pipeline that scrapes city data from Wikipedia, pulls
+weather forecasts and flight schedules from REST APIs, and loads everything into a
+5-table MySQL database on Google Cloud SQL. Deployed it as Cloud Run functions
+triggered by Cloud Scheduler, with duplicate-free re-runs and credentials stored in
+Secret Manager. Handled missing fields, empty responses, rate limits and timezone
+differences, and debugged production failures from Cloud Run logs.
+
+[GitHub repository →](https://github.com/Om4143/gans-data-pipeline)
+
+### Discount Strategy Analysis
+`Python` · `Pandas`
+
+Cleaned three raw sales tables (malformed prices, 8,700+ duplicate rows) and tested
+whether discounts pay off. Sales stop rising above a 20% discount, and budget items
+get the deepest cuts but bring in only 5.9% of revenue; recommended capping
+discounts at 20% and shifting them to high-end products.
+
+[GitHub repository →](https://github.com/Om4143/eniac-discount-strategy)
+
+### A/B Test of Homepage Buttons
+`Python` · `SciPy` · `Statistics`
+
+Compared four button designs across ~100,000 homepage visits using a chi-square
+test with Bonferroni-corrected pairwise tests. White buttons clearly beat red ones
+(2.0–2.1% vs. 0.8–1.1% click-through rate); the two white versions showed no
+significant difference.
+
+[GitHub repository →](https://github.com/Om4143/eniac-ab-test-chi-square)
+
+### Smartwatch Activity Dashboard
+`BigQuery` · `Tableau`
+
+Cleaned 960 days of personal Samsung Health data in BigQuery and built a Tableau
+dashboard; found the 10,000-step goal rate rose from under 30% to 73% in 2026.
+
+[GitHub repository →](https://github.com/Om4143/samsung-health-analysis) ·
 [Tableau Public portfolio →](https://public.tableau.com/app/profile/omveer.singh)
+
+## Research & Software Engineering
 
 ### QA framework & CI/CD for detector data (CBM / FAIR)
 `Python` · `C++` · `CI/CD` · `ROOT`
 
-Designed and built a Python/C++ QA framework validating large simulation and
-experimental datasets across multiple detector subsystems, with automated
-quality checks integrated into CI/CD pipelines for automatic regression
-detection across an international collaboration.
+Built a Python and C++ QA framework that automatically checks large simulation and
+detector datasets, so problems no longer had to be found by hand. Added these
+checks to the CI pipeline, so errors showed up as soon as the code changed.
+
+[GitHub repository →](https://github.com/Om4143/CbmRootFramework)
 
 ### CAD → GDML → ROOT geometry pipeline
 `C++` · `Python` · `CAD` · `ROOT`
@@ -33,6 +92,6 @@ with optimised primitives while preserving physics and material accuracy.
 ### CMake build-system modernisation (CbmRoot)
 `C++` · `CMake` · `build systems`
 
-Led migration of a large legacy build system to a modern, target-based **CMake**
-architecture — improving modularity, dependency handling, and cross-platform
-builds. Developer documentation adopted as the collaboration standard.
+Moved a large, old build system to modern **CMake**, which made the code easier
+to maintain. Wrote the developer documentation, which the collaboration adopted
+as its standard.

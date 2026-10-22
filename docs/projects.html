@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Omveer Singh">
-<meta name="description" content="Software engineer &amp; data analyst — Python, C++, SQL, CI/CD. 8+ years with large-scale scientific data.">
+<meta name="description" content="Data analyst — Python, SQL, Tableau, ETL pipelines, A/B testing. PhD with 8+ years of large-scale data analysis.">
 
 <title>Projects – Omveer Singh</title>
 <style>
@@ -42,7 +42,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-3e8f12d1b5c8d04d32925f9f9ead600c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-813c488de3d48cc0b1daf281097410ca.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -102,11 +102,11 @@ https://badge.dimensions.ai/
 
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="Projects – Omveer Singh">
-<meta property="og:description" content="Selected software-engineering and data-analysis work.">
+<meta property="og:description" content="Selected data-analysis and software-engineering work.">
 <meta property="og:image" content="https://om4143.github.io/files/images/om.jpg">
 <meta property="og:site_name" content="Omveer Singh">
 <meta name="twitter:title" content="Projects – Omveer Singh">
-<meta name="twitter:description" content="Selected software-engineering and data-analysis work.">
+<meta name="twitter:description" content="Selected data-analysis and software-engineering work.">
 <meta name="twitter:image" content="https://om4143.github.io/files/images/om.jpg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
@@ -128,6 +128,10 @@ https://badge.dimensions.ai/
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./projects.html" aria-current="page"> 
+<span class="menu-text">Projects</span></a>
+  </li>  
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">About</span>
@@ -144,10 +148,6 @@ https://badge.dimensions.ai/
  <span class="menu-text">Research</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-research">    
-        <li>
-    <a class="dropdown-item" href="./projects.html">
- <span class="dropdown-text">Projects</span></a>
-  </li>  
         <li>
     <a class="dropdown-item" href="./publications.html">
  <span class="dropdown-text">List of Publications</span></a>
@@ -210,9 +210,17 @@ https://badge.dimensions.ai/
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#selected-projects" id="toc-selected-projects" class="nav-link active" data-scroll-target="#selected-projects">Selected Projects</a>
+  <li><a href="#data-analytics-projects" id="toc-data-analytics-projects" class="nav-link active" data-scroll-target="#data-analytics-projects">Data Analytics Projects</a>
   <ul class="collapse">
-  <li><a href="#interactive-data-dashboards" id="toc-interactive-data-dashboards" class="nav-link" data-scroll-target="#interactive-data-dashboards">Interactive data dashboards</a></li>
+  <li><a href="#market-entry-analysis" id="toc-market-entry-analysis" class="nav-link" data-scroll-target="#market-entry-analysis">Market-Entry Analysis</a></li>
+  <li><a href="#playlist-clustering-for-a-music-startup" id="toc-playlist-clustering-for-a-music-startup" class="nav-link" data-scroll-target="#playlist-clustering-for-a-music-startup">Playlist Clustering for a Music Startup</a></li>
+  <li><a href="#automated-cloud-data-pipeline-for-e-scooter-demand-analysis" id="toc-automated-cloud-data-pipeline-for-e-scooter-demand-analysis" class="nav-link" data-scroll-target="#automated-cloud-data-pipeline-for-e-scooter-demand-analysis">Automated Cloud Data Pipeline for E-Scooter Demand Analysis</a></li>
+  <li><a href="#discount-strategy-analysis" id="toc-discount-strategy-analysis" class="nav-link" data-scroll-target="#discount-strategy-analysis">Discount Strategy Analysis</a></li>
+  <li><a href="#ab-test-of-homepage-buttons" id="toc-ab-test-of-homepage-buttons" class="nav-link" data-scroll-target="#ab-test-of-homepage-buttons">A/B Test of Homepage Buttons</a></li>
+  <li><a href="#smartwatch-activity-dashboard" id="toc-smartwatch-activity-dashboard" class="nav-link" data-scroll-target="#smartwatch-activity-dashboard">Smartwatch Activity Dashboard</a></li>
+  </ul></li>
+  <li><a href="#research-software-engineering" id="toc-research-software-engineering" class="nav-link" data-scroll-target="#research-software-engineering">Research &amp; Software Engineering</a>
+  <ul class="collapse">
   <li><a href="#qa-framework-cicd-for-detector-data-cbm-fair" id="toc-qa-framework-cicd-for-detector-data-cbm-fair" class="nav-link" data-scroll-target="#qa-framework-cicd-for-detector-data-cbm-fair">QA framework &amp; CI/CD for detector data (CBM / FAIR)</a></li>
   <li><a href="#cad-gdml-root-geometry-pipeline" id="toc-cad-gdml-root-geometry-pipeline" class="nav-link" data-scroll-target="#cad-gdml-root-geometry-pipeline">CAD → GDML → ROOT geometry pipeline</a></li>
   <li><a href="#cmake-build-system-modernisation-cbmroot" id="toc-cmake-build-system-modernisation-cbmroot" class="nav-link" data-scroll-target="#cmake-build-system-modernisation-cbmroot">CMake build-system modernisation (CbmRoot)</a></li>
@@ -230,7 +238,7 @@ https://badge.dimensions.ai/
 
 <div>
   <div class="description">
-    Selected software-engineering and data-analysis work.
+    Selected data-analysis and software-engineering work.
   </div>
 </div>
 
@@ -247,18 +255,52 @@ https://badge.dimensions.ai/
 </header>
 
 
-<section id="selected-projects" class="level2">
-<h2 class="anchored" data-anchor-id="selected-projects">Selected Projects</h2>
-<section id="interactive-data-dashboards" class="level3">
-<h3 class="anchored" data-anchor-id="interactive-data-dashboards">Interactive data dashboards</h3>
-<p><code>Tableau</code> · <code>data cleaning</code> · <code>data storytelling</code></p>
-<p>Interactive dashboards that turn raw datasets into decision-ready insights — from cleaning and transformation through to the final visual narrative.</p>
-<p><a href="https://public.tableau.com/app/profile/omveer.singh">Tableau Public portfolio →</a></p>
+<section id="data-analytics-projects" class="level2">
+<h2 class="anchored" data-anchor-id="data-analytics-projects">Data Analytics Projects</h2>
+<section id="market-entry-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="market-entry-analysis">Market-Entry Analysis</h3>
+<p><code>MySQL</code> · <code>SQL</code> · <code>Tableau</code></p>
+<p>Queried a 9-table marketplace database to decide whether an online tech retailer should partner with a Brazilian platform. Found that ~93% of orders arrive on time and tech makes up ~14% of revenue; recommended signing the deal and presented the results in a Tableau dashboard.</p>
+<p><a href="https://github.com/Om4143/eniac-magist-analysis">GitHub repository →</a></p>
 </section>
+<section id="playlist-clustering-for-a-music-startup" class="level3">
+<h3 class="anchored" data-anchor-id="playlist-clustering-for-a-music-startup">Playlist Clustering for a Music Startup</h3>
+<p><code>Python</code> · <code>Scikit-learn</code> · <code>Spotify API</code></p>
+<p>Built a K-Means model that grouped 5,000+ Spotify songs into 34 playlists of 50–250 songs each, to test whether machine learning can replace manual curation. Cleaned the data (duplicates, outliers, feature selection), compared 5 scaling methods and reduced 9 audio features with PCA while keeping 95% of the variance. Published the playlists via the Spotify Web API and explained the limits to a non-technical audience: the model makes good first drafts, but an expert should still review them.</p>
+<p><a href="https://github.com/Om4143/moosic-playlist-clustering">GitHub repository →</a></p>
+</section>
+<section id="automated-cloud-data-pipeline-for-e-scooter-demand-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="automated-cloud-data-pipeline-for-e-scooter-demand-analysis">Automated Cloud Data Pipeline for E-Scooter Demand Analysis</h3>
+<p><code>Python</code> · <code>MySQL</code> · <code>BeautifulSoup</code> · <code>REST APIs</code> · <code>Google Cloud</code></p>
+<p>Built an end-to-end ETL pipeline that scrapes city data from Wikipedia, pulls weather forecasts and flight schedules from REST APIs, and loads everything into a 5-table MySQL database on Google Cloud SQL. Deployed it as Cloud Run functions triggered by Cloud Scheduler, with duplicate-free re-runs and credentials stored in Secret Manager. Handled missing fields, empty responses, rate limits and timezone differences, and debugged production failures from Cloud Run logs.</p>
+<p><a href="https://github.com/Om4143/gans-data-pipeline">GitHub repository →</a></p>
+</section>
+<section id="discount-strategy-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="discount-strategy-analysis">Discount Strategy Analysis</h3>
+<p><code>Python</code> · <code>Pandas</code></p>
+<p>Cleaned three raw sales tables (malformed prices, 8,700+ duplicate rows) and tested whether discounts pay off. Sales stop rising above a 20% discount, and budget items get the deepest cuts but bring in only 5.9% of revenue; recommended capping discounts at 20% and shifting them to high-end products.</p>
+<p><a href="https://github.com/Om4143/eniac-discount-strategy">GitHub repository →</a></p>
+</section>
+<section id="ab-test-of-homepage-buttons" class="level3">
+<h3 class="anchored" data-anchor-id="ab-test-of-homepage-buttons">A/B Test of Homepage Buttons</h3>
+<p><code>Python</code> · <code>SciPy</code> · <code>Statistics</code></p>
+<p>Compared four button designs across ~100,000 homepage visits using a chi-square test with Bonferroni-corrected pairwise tests. White buttons clearly beat red ones (2.0–2.1% vs.&nbsp;0.8–1.1% click-through rate); the two white versions showed no significant difference.</p>
+<p><a href="https://github.com/Om4143/eniac-ab-test-chi-square">GitHub repository →</a></p>
+</section>
+<section id="smartwatch-activity-dashboard" class="level3">
+<h3 class="anchored" data-anchor-id="smartwatch-activity-dashboard">Smartwatch Activity Dashboard</h3>
+<p><code>BigQuery</code> · <code>Tableau</code></p>
+<p>Cleaned 960 days of personal Samsung Health data in BigQuery and built a Tableau dashboard; found the 10,000-step goal rate rose from under 30% to 73% in 2026.</p>
+<p><a href="https://github.com/Om4143/samsung-health-analysis">GitHub repository →</a> · <a href="https://public.tableau.com/app/profile/omveer.singh">Tableau Public portfolio →</a></p>
+</section>
+</section>
+<section id="research-software-engineering" class="level2">
+<h2 class="anchored" data-anchor-id="research-software-engineering">Research &amp; Software Engineering</h2>
 <section id="qa-framework-cicd-for-detector-data-cbm-fair" class="level3">
 <h3 class="anchored" data-anchor-id="qa-framework-cicd-for-detector-data-cbm-fair">QA framework &amp; CI/CD for detector data (CBM / FAIR)</h3>
 <p><code>Python</code> · <code>C++</code> · <code>CI/CD</code> · <code>ROOT</code></p>
-<p>Designed and built a Python/C++ QA framework validating large simulation and experimental datasets across multiple detector subsystems, with automated quality checks integrated into CI/CD pipelines for automatic regression detection across an international collaboration.</p>
+<p>Built a Python and C++ QA framework that automatically checks large simulation and detector datasets, so problems no longer had to be found by hand. Added these checks to the CI pipeline, so errors showed up as soon as the code changed.</p>
+<p><a href="https://github.com/Om4143/CbmRootFramework">GitHub repository →</a></p>
 </section>
 <section id="cad-gdml-root-geometry-pipeline" class="level3">
 <h3 class="anchored" data-anchor-id="cad-gdml-root-geometry-pipeline">CAD → GDML → ROOT geometry pipeline</h3>
@@ -269,7 +311,7 @@ https://badge.dimensions.ai/
 <section id="cmake-build-system-modernisation-cbmroot" class="level3">
 <h3 class="anchored" data-anchor-id="cmake-build-system-modernisation-cbmroot">CMake build-system modernisation (CbmRoot)</h3>
 <p><code>C++</code> · <code>CMake</code> · <code>build systems</code></p>
-<p>Led migration of a large legacy build system to a modern, target-based <strong>CMake</strong> architecture — improving modularity, dependency handling, and cross-platform builds. Developer documentation adopted as the collaboration standard.</p>
+<p>Moved a large, old build system to modern <strong>CMake</strong>, which made the code easier to maintain. Wrote the developer documentation, which the collaboration adopted as its standard.</p>
 
 
 </section>

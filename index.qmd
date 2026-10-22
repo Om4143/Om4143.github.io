@@ -1,6 +1,6 @@
 ---
 title: "Omveer Singh, PhD"
-description: "**Software Engineer & Data Analyst** | Scientific Computing · Data Pipelines · CI/CD"
+description: "**Data Analyst / Data Scientist** | Python · SQL · Tableau · ETL Pipelines · A/B Testing"
 image: "files/images/om.jpg"
 page-navigation: false
 toc: false
@@ -22,7 +22,7 @@ about:
    #   target: _blank
     - icon: envelope
       text: E-mail
-      href: mailto:omvir.ch@gmail.com    
+      href: mailto:o.singh.phy@gmail.com    
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/osingh4143/
@@ -67,52 +67,52 @@ about:
 
 :::{#hero-heading}
 
-
-
 ### Profile
 
-I'm a software engineer and data analyst with 8+ years building Python and C++
-software, automated QA frameworks, and reliable data-processing pipelines within
-large international research collaborations (**CBM/FAIR**, **GSI Helmholtz Centre**,
-and **Goethe University Frankfurt**).
+I'm a quantitative researcher with a PhD and 8+ years of international research
+experience, now working as a **data analyst**. I'm skilled in **Python (Pandas), SQL,
+Tableau, ETL pipelines and A/B testing**, with a track record in automated data
+validation, large-scale data analysis, and explaining complex findings to diverse
+audiences (20+ peer-reviewed publications).
 
-I turn complex, large-scale datasets into **reliable, decision-ready insights**
-through well-engineered, reproducible workflows — and I'm now focused on software
-engineering and data roles in industry.
-
+I'm looking for a Data Analyst role where I can deliver **trusted, decision-ready
+insights**. I'm based in Darmstadt, open to relocation across Germany, and
+available from **December 2026**.
 
 ### What I do
 
-- Design and ship maintainable **Python / C++** software, with automated testing
-  and **CI/CD**.
-- Build **data-quality and validation frameworks** that catch regressions
-  automatically.
-- Turn large, messy datasets into validated insights, **dashboards**, and reports.
-- Optimise performance — e.g. an **8× runtime reduction** on a geometry-processing
-  pipeline, with full accuracy preserved.
+- Clean, validate and analyse messy real-world data with **Python and Pandas**.
+- Write **SQL** queries that combine data from many tables to answer business questions.
+- Design and evaluate **A/B tests** with sound statistics.
+- Build **ETL pipelines** that collect data via web scraping and APIs and load it
+  into cloud databases on **Google Cloud**.
+- Present results in interactive **Tableau dashboards** that non-technical
+  audiences can act on.
 
 ### Core skills
 
-- **Languages:** Python, C++, SQL, R
-- **Data & analysis:** pandas, NumPy, statistical analysis, data validation &
-  cleaning, Tableau
-- **Software & DevOps:** Git, Docker, CMake, CI/CD, automated testing, Linux / HPC
-- **Domain:** scientific computing, detector simulation, large-scale data pipelines (ROOT)
+- **Data analysis:** Python (Pandas, NumPy), data cleaning & validation, statistical analysis, A/B testing
+- **Databases & querying:** SQL, MySQL, BigQuery, REST APIs, web scraping
+- **ETL & cloud:** ETL pipelines, Google Cloud (Cloud SQL, Cloud Run, Cloud Scheduler)
+- **Visualisation & BI:** Tableau, dashboards & business reporting, Matplotlib
+- **Machine learning:** Scikit-learn, regression, classification, clustering
+- **Engineering & tools:** Git/GitHub, C++, R, Linux, Docker, CI/CD, automated testing
 
-**Tech stack:** Python · SQL · C++ · pandas · Git · Docker · CMake · CI/CD · Tableau · Linux
+### Training & experience
 
+- **Data Science Bootcamp**, WBS Coding School · Jul 2026 – present
+- **Self-directed data analytics study** (Google Data Analytics, Supervised ML) · Oct 2025 – Jun 2026
+- **Postdoctoral Researcher – Software & Data Systems**, Goethe University Frankfurt · Mar 2023 – Sep 2025
+- **Software Engineering Intern**, GSI Helmholtz Centre / FAIR · Jul 2022 – Dec 2022
+- **PhD, Experimental High-Energy Physics**, Aligarh Muslim University · Dec 2015 – Dec 2022
 
 ### Get Started
 
 - **Projects:** [Selected work](projects.html)
-- **Curriculum Vitae:** [PDF](files/Curriculum_Vitae_OSingh.pdf)  
-- **Publications:** [Complete list](publications.qmd) | [Selected papers](posts.qmd#category=paper)  
-- **GitHub:** [https://github.com/Om4143](https://github.com/Om4143)  
+- **Dashboards:** [Tableau Public](https://public.tableau.com/app/profile/omveer.singh)
+- **Curriculum Vitae:** [PDF](files/Curriculum_Vitae_OSingh.pdf)
+- **Publications:** [Complete list](publications.qmd) | [Selected papers](posts.qmd#category=paper)
+- **GitHub:** [https://github.com/Om4143](https://github.com/Om4143)
 - **Contact:** [Get in touch](contact.qmd)
 
-
 :::
-
-
-<!-- Delete the following section and delete corresponding lines in the yaml part to remove the recent posts -->
-
